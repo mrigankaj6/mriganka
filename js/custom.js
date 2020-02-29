@@ -15,7 +15,7 @@ jQuery( document ).ready(function() {
 	function getRulerRange(min, max, step) {
 	var range = '';
 	var i = min;
-
+	console.log(max);
 	while (i <= max) {
 	range += i + ' ';
 	i = i + step;
